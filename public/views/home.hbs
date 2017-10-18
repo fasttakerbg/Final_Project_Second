@@ -1,0 +1,208 @@
+<link rel="stylesheet" type="text/css" href="./styles/home1.css">
+<main class="clearfix">
+    <div class="secondary-header">
+        <ul class="secondary-header-container">
+            <div class="secondary-header-nav">
+                <li><a href="#/home" class="first-el ">Home</a></li>
+                <li><a href="#/blog">About</a></li>
+                <li><a href="#/post">Contact</a></li>
+                <li><a href="#/blog">Page Templates</a></li>
+                <li><a href="#/post">Shortcodes</a></li>
+                <li><a href="#/blog">Blog</a></li>
+                <li><a href="#/post">Page Templates</a></li>
+                <li><a href="#/blog">Shortcodes</a></li>
+                <li><a href="#/post">Blog</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <!-- Start of CArousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel slide" data-interval="5000">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Carousel pics -->
+        <div class="carousel-inner">
+
+            {{#carouselContent.result}} {{#if @first}}
+            <div class="item active">
+                <img src={{image}} class="carousel-img">
+                <!-- CArousel main window caption -->
+                <div class="carousel-caption">
+                    <h2>{{title}}</h2>
+                    <p>{{summary}}</p>
+                    <a href="#/blog" class="btn carousel-caption-btn">Read More</a>
+                </div>
+            </div>
+            {{else}}
+            <div class="item">
+                <img src={{image}} class="carousel-img">
+                <div class="carousel-caption">
+                    <h2>{{title}}</h2>
+                    <p>{{summary}}</p>
+                    <a href="#/blog" class="btn carousel-caption-btn">Read More</a>
+                </div>
+            </div>
+            {{/if}} {{/carouselContent.result}}
+        </div>
+
+        <!-- Carousel navigation arrows -->
+        <span href="#myCarousel" class="right carousel-control" data-slide="next">
+                    <span>
+                         <img class="carousel-right-arrow" src="pics/carousel-right-arrow.png" />
+                    </span>
+        </span>
+        <span href="#myCarousel" class="left carousel-control" data-slide="prev">
+                        <span>
+                             <img class="carousel-left-arrow" src="pics/carousel-left-arrow.png" />
+                        </span>
+        </span>
+    </div>
+    <!-- End of CArousel -->
+    <!-- Start of Jumbotron  -->
+    <div class=" main-jumbotron-section clearfix">
+        {{!--
+        <hr class="section-separator"> --}}
+
+        <h2>"Travel is the only thing you buy that makes you really genuinly happy real"</h2>
+        <p>He who does not travel does not know the value of men, nature and life.</p>
+
+        {{!--
+        <hr class="section-separator"> --}}
+    </div>
+    <!-- End of Jumbotron  -->
+
+
+    {{!-- Top 3 images --}}
+    <section id="middle-section-content" class="group">
+        <div class="country-infoCards">
+            {{#countryInfo.result}}
+            <article class="country-card">
+                <h2 class="country-card-title">{{title}}</h2>
+                <div class="country-card-container">
+                    <a href="#/posts/{{key}}" class="preview-country-container">
+                        <img src="{{image}}" alt="{{title}}" class="preview-country-img img-thumbnail">
+                        <span class="preview-country-hover-icon"> </span>
+
+                    </a>
+                </div>
+                <p class="country-card-text">{{summary}}</p>
+            </article>
+            {{/countryInfo.result}}
+        </div>
+        {{!-- End of 3 top images --}}
+       
+        <div class="media-blog">
+            <aside class="blog-section ">
+                <h4 class="blog-section-title">From The Blog</h4>
+                <ul class="blog-section-list">
+                    {{#recentPosts.result}}
+                    <li><a href="#/blog/{{id}}">{{title}}</a></li>
+                    {{/recentPosts.result}}
+                </ul>
+            </aside>
+        <div class="todor">
+            <aside class="media-section">
+                <h4 class="media-section-title">MultiMedia Box</h4>
+                <div id="mediaCarousel" class="carousel slide" data-interval="5000">
+
+                    <div class="carousel-inner ">
+
+
+                        <div class="item active media-carousel-container">
+                            {{#media.result}} {{#if @first}}
+                             
+                            <div class="col-md-2 media-items media-carousel-first-item">
+                                <img src={{imageUrl}} class="img-thumbnail media-carousel-img ">
+
+                                <span class="media-hover-video-icon "></span>
+                                <div class="media-item-description">
+                               <p> {{description}}</p>
+                             </div>
+                            </div>
+                           
+                             {{else}}
+                                 <div class="col-md-2  media-items media-carousel-items">
+                                <img src={{imageUrl}} class="img-thumbnail media-carousel-img">
+
+                                 <span class="media-hover-icon"></span>
+                               <div class="media-item-description">
+                                <p>{{description}}</p>
+                             </div>
+                            </div>
+                         {{/if}}   {{/media.result}}
+                        </div>
+
+                        <div class="item media-carousel-container">
+                          {{#media.result}} {{#if @first}}
+                             
+                            <div class="col-md-2 media-items media-carousel-first-item">
+                                <img src={{imageUrl}} class="img-thumbnail media-carousel-img ">
+
+                                <span class="media-hover-video-icon "></span>
+                                <div class="media-item-description">
+                               <p> {{description}}</p>
+                             </div>
+                            </div>
+                           
+                             {{else}}
+                                 <div class="col-md-2  media-items media-carousel-items ">
+                                <img src={{imageUrl}} class="img-thumbnail media-carousel-img">
+
+                                 <span class="media-hover-icon"></span>
+                               <div class="media-item-description">
+                                <p>{{description}}</p>
+                             </div>
+                            </div>
+                         {{/if}}   {{/media.result}}
+                        </div>
+                    </div>
+                    
+                    {{!-- <div class="carousel-inner ">
+                         
+                          {{#media.result}} {{#if @first}}
+                        <div class="media-carousel-container active item ">
+                             <div class="col-md-2">
+                                <img src={{imageUrl}} class="img-thumbnail media-carousel-img  ">
+
+                                <span class="media-hover-video-icon "></span>
+                            </div>
+                        </div>
+                        {{else}}
+                        <div class="media-carousel-container item">
+                             <div class=" col-md-2">
+                                <img src={{imageUrl}} class="img-thumbnail media-carousel-img ">
+
+                                <span class="media-hover-video-icon "></span>
+                            </div>
+                      
+                    </div>
+                    
+                        {{/if}} {{/media.result}}
+                        </div> --}}
+                   
+                </div>
+                <!--.carousel-inner-->
+            
+
+            </aside>
+
+           </div>
+        </div>
+                       <span href="#mediaCarousel" data-slide="prev">
+                        <span class="media-left-arrow">                   
+                        </span>
+                </span>
+                <span href="#mediaCarousel" data-slide="next">
+                    <span class="media-right-arrow">
+                    </span>
+                </span>
+        <!--.Carousel-->    
+    </section>
+
+</main>

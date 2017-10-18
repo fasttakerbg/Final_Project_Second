@@ -1,0 +1,176 @@
+{
+    "recentPosts": [{
+            "id": 1,
+            "title": "How to get to Machu Picchu"
+        },
+        {
+            "id": 2,
+            "title": "Handling the heights"
+        },
+        {
+            "id": 3,
+            "title": "Lots of money to spend here"
+        },
+        {
+            "id": 4,
+            "title": "And always return to PEru"
+        },
+        {
+            "id": 5,
+            "title": "Leave worries home"
+        },
+        {
+            "id": 6,
+            "title": "How to get to Machu Picchu"
+        }
+
+    ],
+    "countryInfo": [{
+            "id": 19,
+            "title": "Live your Life Free",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/trip1.png",
+            "comments": []
+        },
+        {
+            "id": 20,
+            "title": "Beaturiful white Sands",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/trip2.png"
+        },
+        {
+            "id": 21,
+            "title": "Hike Up the Mountains",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/trip3.png"
+        }
+    ],
+
+    "carouselContent": [{
+            "id": 1,
+            "title": "Go to Peru and witness the mighty Inca empire!",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboridsadasdasdasdsadass nisi ut aliquidsadadsadsadsaex ea commodo consequat ",
+
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/machu.png"
+
+        },
+        {
+            "id": 2,
+            "title": "Day trip to CAiro and the Pyramids",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/pyramids.png"
+        },
+        {
+            "id": 3,
+            "title": "See the ancient temples in CAmbodia",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/angkor.png"
+        },
+        {
+            "id": 4,
+            "title": "Bulgaria and its wonders",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+            "fullText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi  porro aut odit corrupti, odio fuga est sequi dolor optio corporis quasi enim voluptates modi necessitatibus? Ullam eligendi recusandae facere voluptatibus dicta unde deleniti sit, doloremque architecto? Sed error deserunt ut magnam sapiente dolore provident voluptates iusto ipsa, qui eveniet facilis asperiores repellendus neque fuga? Sint repellendus rem delectus. Illo molestiae magnam eveniet consequatur ratione! Reiciendis ducimus magni ullam necessitatibus voluptates rerum dolore esse placeat corrupti ad, minus illo soluta, iure ipsam fugiat amet aut. ",
+            "createdAt": "2016-12-31T11:31:13.840Z",
+            "image": "pics/rila.png"
+        }
+    ],
+
+    "media": [{
+            "id": "1",
+            "imageUrl": "pics/media-img1.png",
+            "description": "CLimb the Musala peak in Bulgaria now!!!"
+        },
+        {
+            "id": "2",
+            "imageUrl": "pics/media-img2.png",
+            "description": "Visit white sand beaches at the Red Sea coast"
+        },
+        {
+            "id": "3",
+            "imageUrl": "pics/media-img3.png",
+            "description": "SKi on the slopes in BAnsko, Bulgaria"
+        },
+        {
+            "id": "4",
+            "imageUrl": "pics/media-img1.png",
+            "description": "CLimb the Musala peak in Bulgaria now!!!"
+        },
+        {
+            "id": "5",
+            "imageUrl": "pics/media-img2.png",
+            "description": "CLimb the Musala peak in Bulgaria now!!!"
+        },
+        {
+            "id": "6",
+            "imageUrl": "pics/media-img3.png",
+            "description": "CLimb the Musala peak in Bulgaria now!!!"
+        },
+        {
+            "id": "7",
+            "imageUrl": "pics/media-img1.png",
+            "description": "CLimb the Musala peak in Bulgaria now!!!"
+        }
+    ],
+
+    "post": [{
+
+        "title": "Cairo in December",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laboriosam laborum exercitationem! Natus voluptatum vel labore, assumenda! Molestias nisi ",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, .Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type",
+        "date": "June 16, 2017",
+        "image": "pics/post-pic.png",
+        "category": "Egypt",
+        "author": "Todor",
+        "comments": [{
+            "author": "Petar Iliev",
+            "date": "October 1, 2017",
+            "text": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stan!!!"
+        }]
+
+    }],
+    "comments": {
+        "author": "Ivo Petrov",
+        "date": "October 1, 2017",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has"
+    },
+    "blogArticles": [{
+            "id": 1,
+            "title": "Tour in Peru",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis... ",
+            "date": "October 1, 2017",
+            "author": "Hristo",
+            "image": "pics/trip1.png",
+            "category": "Egypt"
+
+        },
+        {
+            "id": 2,
+            "title": "How far is the SPhynx",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis... ",
+            "date": "December 1, 2016",
+            "author": "Penko",
+            "image": "pics/trip2.png"
+        },
+        {
+            "id": 3,
+            "title": "Diving in the Red Sea",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis... ",
+            "date": "March 20, 2016",
+            "author": "Ivaila",
+            "image": "pics/trip3.png"
+        }
+    ]
+}

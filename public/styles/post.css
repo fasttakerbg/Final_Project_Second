@@ -1,0 +1,494 @@
+ /* Top Header container general settings  */
+ 
+ .top-header {
+     height: 155px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     background-color: rgb(255, 255, 255);
+ }
+ /* Top Header right top panel section search & social icons */
+ 
+ .top-header-panel {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+ }
+ 
+ .top-header-social-icons {
+     padding-right: 20px
+ }
+ 
+ .top-header-search-input {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 11px;
+     font-style: italic;
+     color: rgb(163, 163, 163);
+     text-shadow: 1px 1px #fff;
+     background-image: linear-gradient( rgb(238, 238, 238), rgb(249, 249, 249) 50%);
+     width: 160px;
+     height: 28px;
+     border: none;
+     box-shadow: 1px -1px 3px rgba(0, 0, 0, 0.35) inset;
+     margin-right: -18px;
+     padding-left: 10px;
+ }
+ 
+ .top-header-search-btn {
+     position: relative;
+     top: 5px;
+     right: 15px
+ }
+ /* Top Header left side logo section  */
+ 
+ .top-header-logo {
+     padding-left: 35px;
+     padding-top: 3px
+ }
+ 
+ .top-header-logo-img {
+     float: left;
+ }
+ 
+ .top-header-logo-text-container {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .top-header-logo-text {
+     font-family: 'Kreon-Light';
+     font-size: 30px;
+     text-transform: uppercase;
+     color: rgb(0, 0, 0);
+     padding-left: 5px
+ }
+ 
+ .top-header-slogan-text {
+     text-transform: uppercase;
+     font-family: 'Droid-Sans';
+     font-size: 13.5px;
+     color: rgb(122, 161, 169);
+     margin-top: -10px;
+     padding-left: 9px;
+ }
+ /* Top Header Nav */
+ 
+ .top-header-nav {
+     display: flex;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+     margin-top: -22px
+ }
+ 
+ .top-header-nav li {
+     float: right;
+     font-family: 'Kreon-Light';
+     font-size: 15px;
+     font-weight: 550;
+     padding-right: 18px;
+     z-index: 2;
+     text-transform: uppercase;
+ }
+ 
+ .top-header-nav:last-child {
+     padding-right: 20px
+ }
+ 
+ .top-header-nav .first-el {
+     color: rgb(67, 124, 139);
+     font-weight: 600;
+ }
+ /* Top header current page position */
+ 
+ .top-header-currentPage {
+     margin-top: 15px;
+     font-family: 'Kreon-light';
+     font-size: 14px;
+     color: rgb(204, 204, 204);
+     padding-left: 48px
+ }
+ 
+ .top-header-currentPage a {
+     color: rgb(204, 204, 204);
+ }
+ 
+ .top-header-currentPage span {
+     color: rgb(89, 89, 89);
+     font-weight: 580
+ }
+ 
+ .top-header-display-icon {
+     display: none;
+ }
+ /* Jumbotron settings */
+ 
+ .main-jumbotron-section {
+     max-height: 130px;
+     padding-top: 0px;
+     margin-top: 0px;
+     text-align: center;
+     vertical-align: center;
+     background-image: linear-gradient( rgb(248, 248, 248), rgb(255, 255, 255));
+     border: 0.1px solid transparent;
+ }
+ 
+ .main-jumbotron-section h2 {
+     font-family: 'Kreon-Light';
+     font-weight: 500;
+     position: relative;
+     top: -10px
+ }
+ 
+ .main-jumbotron-section p {
+     font-family: 'Kreon-Light';
+     font-weight: 500;
+     color: rgb(175, 175, 175);
+     margin-top: -5px;
+     padding-bottom: 23px;
+     position: relative;
+     /* top: -10px; */
+ }
+ 
+ .section-separator {
+     /* margin-top: 55px; */
+     width: 890px;
+     position: relative;
+     top: -20px
+ }
+ /*MAin content settings */
+ 
+ .main-content {
+     max-width: 860px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     background-color: rgb(255, 255, 255);
+     margin: auto;
+ }
+ 
+ .main-content-left {
+     max-width: 550px;
+     color: rgb(146, 146, 146);
+ }
+ 
+ .main-content-left h4 {
+     font-family: 'Kreon-Light';
+     font-size: 15px;
+     border: 1px solid rgb(240, 240, 240);
+     border-left: transparent;
+     border-right: transparent;
+     vertical-align: middle;
+     line-height: 30px;
+     margin-bottom: 17px;
+ }
+ 
+ .main-content-left article {
+     font-family: 'Droid-Sans';
+     font-size: 12px;
+ }
+ 
+ .main-content-left img {
+     width: 200px;
+     height: 200px;
+     margin-right: 28px
+ }
+ 
+ .main-content-right {
+     display: flex;
+     flex-direction: column;
+     font-family: 'Droid-Sans';
+     font-size: 12px;
+     color: rgb(160, 160, 160);
+ }
+ 
+ .pull-content-right {
+     margin-right: 0;
+     padding-right: 0
+ }
+ 
+ .main-content-right-container>span {
+     font-family: 'Kreon-Light';
+     font-size: 20px;
+     color: rgb(29, 29, 29);
+     display: block;
+     margin-bottom: 17px;
+ }
+ 
+ .main-content-right-container li {
+     list-style-type: disc;
+     padding-right: 0px;
+     margin-top: 0px;
+     margin-left: 0px;
+     margin-bottom: 16px;
+ }
+ 
+ .main-content-right li:last-child {
+     margin-bottom: 42px;
+ }
+ 
+ .main-content-right-container {
+     margin: auto
+ }
+ /* Main Comment settings  */
+ 
+ .main-comment {
+     margin-bottom: 63px;
+ }
+ 
+ .main-comment h1 {
+     font-family: 'Kreon-Light';
+     font-size: 28px;
+     color: rgb(28, 28, 28);
+     margin-bottom: 22px;
+ }
+ 
+ .main-comment-container {
+     background-color: rgb(253, 253, 253);
+     border: 1px solid rgb(240, 240, 240);
+     /* max-height: 170px; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 27px
+ }
+ 
+ .main-comment-container div {
+     padding: 14px;
+ }
+ 
+ .main-comment-author {
+     font-family: 'Kreon-Light';
+     font-size: 20px;
+     color: rgb(29, 29, 29)
+ }
+ 
+ .main-comment-date {
+     font-family: Georgia;
+     font-size: 12px;
+     font-style: italic
+ }
+ 
+ .main-comment img {
+     width: 68px;
+     height: 68px;
+     margin-right: 16px;
+ }
+ 
+ .main-comment-btn {
+     font-family: 'Kreon-Light';
+     font-size: 12px;
+     color: rgb(44, 44, 44);
+     font-weight: 700;
+ }
+ /* Post Comment section  */
+ 
+ .leave-comment {
+     font-family: 'Droid-Sans';
+     font-size: 12px;
+     background-color: rgb(253, 253, 253);
+     border: 1px solid rgb(240, 240, 240);
+ }
+ 
+ .contact-form {
+     padding-right: 10px;
+     padding-left: 10px
+ }
+ 
+ @media (max-width: 1050px) and (min-width: 800px) {}
+ 
+ @media (max-width: 799px) and (min-width: 500px) {
+     /* Header and Top NAvigation behaviour  */
+     .top-header {
+         max-height: 140px;
+     }
+     .top-header-logo {
+         padding-top: 25px
+     }
+     .top-header-logo-text {
+         top: 0px;
+         left: 0px
+     }
+     .top-header-panel {
+         display: none
+     }
+     .top-header-nav {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         margin-left: auto;
+         margin-top: 0px;
+         padding-right: 30px;
+         padding-top: 2px;
+     }
+     .top-header-currentPage {
+         position: absolute;
+         top: 120px
+     }
+     .main-jumbotron-section {
+         margin-bottom: -20px;
+         padding-bottom: 0px;
+     }
+     .main-jumbotron-section h2 {
+         font-size: 1.8em;
+         top: -30px
+     }
+     .main-jumbotron-section p {
+         font-size: 1.4em;
+         top: -30px;
+         padding-bottom: 0px;
+         margin-bottom: 0px
+     }
+     .section-separator-last {
+         display: none
+     }
+     .main-content-comment {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap
+     }
+     .main-content-right:last-child {
+         display: none
+     }
+     .main-content-right li {
+         margin-bottom: 0px
+     }
+     .pull-content-right {
+         display: flex;
+         flex-direction: center;
+         justify-content: space-between;
+     }
+     .main-content-right:first-child {
+         margin: auto;
+     }
+     .main-content-right {
+         padding-right: 70px
+     }
+ }
+ 
+ @media (max-width: 499px) {
+     /* Header and Top NAvigation behaviour  */
+     .top-header {
+         height: 80px
+     }
+     .top-header-nav {
+         display: none;
+     }
+     .top-header-nav li a {
+         z-index: 6;
+         font-family: 'Kreon-Light';
+         font-size: 15px;
+         font-weight: 550;
+     }
+     .top-header-logo {
+         padding-left: 0px
+     }
+     .top-header-logo-text {
+         top: 0px
+     }
+     .top-header-panel {
+         display: none
+     }
+     .top-header-display-icon {
+         display: block;
+         margin-left: 3.5rem;
+         padding-top: 30px;
+         position: relative;
+         float: right;
+     }
+     .top-header-currentPage {
+         position: absolute;
+         top: 100px
+     }
+     .responsive {
+         display: flex;
+         flex-wrap: wrap;
+         z-index: 100;
+         position: absolute;
+         top: 175px;
+         background-image: linear-gradient( rgb(248, 248, 248), rgb(255, 255, 255));
+         min-height: 85px;
+         width: 100%;
+         align-items: stretch;
+         justify-content: space-around;
+         padding-top: 10px;
+         align-content: center;
+         align-items: center
+     }
+     .responsive li {
+         flex-grow: 1
+     }
+     .responsive li:nth-child(4) {
+         display: none
+     }
+     .responsive li:nth-child(5) {
+         display: none
+     }
+     .section-separator {
+         margin: 20px
+     }
+     .main-jumbotron-section {
+         margin-top: 20px;
+         margin-bottom: 20px;
+         padding-bottom: 0px
+     }
+     .main-jumbotron-section h2 {
+         font-size: 1.5em;
+         margin: 0px
+     }
+     .main-jumbotron-section p {
+         display: none
+     }
+     #main-content {
+         justify-content: center;
+     }
+     .pull-content-right {
+         display: flex;
+         justify-content: center;
+         margin-top: -30px
+     }
+     .main-content {
+         margin-top: -50px
+     }
+     .main-content-right {
+         display: none
+     }
+     .main-content-right:first-child {
+         margin: auto
+     }
+     .main-content-comment {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap
+     }
+     .main-content-right li {
+         margin-bottom: 0px
+     }
+     .main-comment h1 {
+         margin-top: 0px;
+         font-size: 20px
+     }
+     article {
+         display: flex;
+         flex-flow: column
+     }
+ }
+ 
+ @media (max-width: 320px) {
+     .main-jumbotron-section h2 {
+         visibility: hidden
+     }
+     .main-comment-container div {
+         display: flex;
+         flex-flow: column
+     }
+     .main-comment-container img {
+         order: -2
+     }
+     .main-comment-container h3 {
+         order: -1
+     }
+     .main-comment-btn {
+         align-self: flex-start
+     }
+ }

@@ -1,0 +1,36 @@
+{
+    "name": "Final-Project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fasttakerbg/Final-Project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fasttakerbg/Final-Project/issues"
+    },
+    "homepage": "https://github.com/fasttakerbg/Final-Project#readme",
+    "dependencies": {
+        "babel-eslint": "^8.0.1",
+        "eslint": "^4.8.0",
+        "eslint-config-google": "^0.9.1",
+        "express": "^4.16.1",
+        "gulp": "^3.9.1",
+        "lowdb": "^1.0.0"
+    },
+    "devDependencies": {
+        "del": "^3.0.0",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-imagemin": "^3.4.0",
+        "gulp-rev": "^8.0.0",
+        "gulp-usemin": "^0.3.28"
+    }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- build:css styles/styles.css -->
+    <!-- <link rel="stylesheet" href="./styles/styles.css"> -->
+    <!-- endbuild -->
+    <link rel="stylesheet" href="./index1.css">
+
+    <title>Document</title>
+</head>
+
+
+<body>
+    <div class="main-window">
+
+        <header class="clearfix">
+            <div class="top-header">
+                <div class="top-header-panel">
+                    <div class="top-header-social-icons">
+                        <a href="#"><img alt="Twitter" src="pics/twitter.png"></a>
+                        <a href="#"><img alt="Rss" src="pics/rss.png"></a>
+                        <a href="#"><img alt="Facebook" class="last-img" src="pics/facebook.png"></a>
+                    </div>
+
+                    <div class="top-header-search">
+                        <form class="top-header-search-form" method="get">
+                            <input class="top-header-search-input" name="s" type="text" value="Search this website...">
+                            <input class="top-header-search-btn" src="pics/search_btn.png" type="image">
+                        </form>
+                    </div>
+                </div>
+                <div class="top-header-main clearfix">
+                    <a>
+                        <div class="top-header-logo clearfix" href="#/main">
+                            <img src="./pics/logo.png" class="top-header-logo-img">
+                            <div class="top-header-logo-text-container">
+                                <span class="top-header-logo-text">Chameleon</span>
+                                <span class="top-header-slogan-text">travel the World Now</span>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="top-header-nav">
+                        <li><a href="#/home" class="first-el">Home</a></li>
+                        <li><a href="#/blog">About</a></li>
+                        <li><a href="#/home">Contact</a></li>
+                        <li><a href="#">Page Templates</a></li>
+                        <li><a href="#">Shortcodes</a></li>
+                        <li><a href="#/blog">Blog</a></li>
+                    </ul>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="top-header-display-icon" onclick="myFunction()">&#9776;</a>
+                </div>
+                <div id="mobile-menu">
+                    <ul class="top-header-mobile-nav">
+                        <li><a href="#/home" class="first-el">Home</a></li>
+                        <li><a href="#/blog">About</a></li>
+                        <li><a href="#/home">Contact</a></li>
+                        <li><a href="#">Page Templates</a></li>
+                        <li><a href="#">Shortcodes</a></li>
+                        <li><a href="#/blog">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+
+        <div id="template-content">
+
+        </div>
+
+        <footer>
+            <div class="main-footer">
+                <div class="main-footer-column">
+                    <a class="main-footer-logo" href="#/home">
+                        <img src="./pics/logo.png" class="main-footer-logo-img">
+                        <span class="main-footer-logo-text">Chameleon</span>
+                        <span class="main-footer-slogan-text">Travel the World Now</span>
+                    </a>
+
+                    <span>&copy; Chameleon Theme 2010</span>The Peruvian population, estimated at 31.2 million in 2015,[10] is multiethnic, including Amerindians, Europeans, Africans and Asians.
+
+                </div>
+                <div class="main-footer-column footer-list">
+                    <span>Latest Posts</span>
+
+                    <li>How to get to Machu Picchu</li>
+                    <li>Handling the heights </li>
+                    <li>Chewing CoCa leaves</li>
+                    <li>Lots of money to spend here</li>
+                    <li>Leave worries home </li>
+                    <li>And always return to PEru</li>
+
+                </div>
+                <div class="main-footer-column">
+                    <span>Todor</span> The Peruvian population, estimated at 31.2 million in 2015,[10] is multiethnic, including Amerindians, Europeans, Africans and Asians. The main spoken language is Spanish, although a significant number of Peruvians
+                </div>
+                <div class="main-footer-column footer-list">
+                    <span>Stuff to Bring</span>
+
+                    <li>Sun-Cream and glassessssssss</li>
+                    <li>A lot of energy drinks and good </li>
+                    <li>Positive vibe and no girl-friends</li>
+                    <li>Lots of money to spend here</li>
+                    <li>Leave worries home </li>
+                    <li>And always return to PEru</li>
+
+                </div>
+
+            </div>
+            <div class="bottom-footer">
+                <p>Designed by <span class="bottom-footer-dark">ElegantWordPressThemes</span> | Powered by <span class="bottom-footer-dark">WordPress</span></p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+
+            var x = document.getElementById("mobile-menu");
+            if (x.className === "top-header-nav") {
+
+                x.className += " responsive";
+            } else {
+                x.className = "top-header-nav";
+
+            }
+            console.log('click')
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.20.12/system.js"></script>
+    <script src="./configs/systemjs-config.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+    <script>
+        System.import('main');
+    </script>
+</body>
+
+</html>

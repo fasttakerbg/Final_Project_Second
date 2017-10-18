@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="./styles/blog.css">
+            <div class="top-header-currentPage">
+               <a  href="#/">Home</a> >> <strong>{{blogArticles.result.[0].category}}</strong>
+            </div>
+<!-- End of Nav -->
+<main>
+    <!-- Start of Jumbotron  -->
+    <div class="jumbotron main-jumbotron-section">
+        <hr class="section-separator">
+
+        <h2>"Travel is the only thing you buy that makes you richer"</h2>
+        <p class="lead">He who does not travel does not know the value of men.</p>
+
+        <hr class="section-separator section-separator-last">
+    </div>
+    <!-- End of Jumbotron  -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8 col-md-offset-1">
+
+                <h2 class="my-4 page-theme">{{blogArticles.result.[0].category}}
+                    <small>Blog Section</small>
+                </h2>
+
+                <!-- Blog Post -->
+                {{#blogArticles.result}}
+                <div class="card-entry-container ">
+                    <img class="card-img-top img-thumbnail img-responsive" src={{image}} alt="Card image cap">
+                    <div class="card-entry-text">
+                        <h4 class="card-title">{{title}}</h4>
+                        <p class="card-text">{{text}}</p>
+                        <div class="card-footer text-muted">
+                            Posted on {{date}} by
+                            <a href="#">{{author}}</a>
+                        </div>
+                        <a href="#/post" class="btn btn-default  card-footer-btn">Read More</a>
+                    </div>
+                </div>
+                {{/blogArticles.result}}
+                 {{!-- Pagination --}}
+                <ul class="pagination justify-content-center mb-4">
+                    <li class="page-item">
+                        <a class="page-link" href="#">&larr; Older</a>
+                    </li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,519 @@
+            main {
+                display: flex;
+                flex-direction: column
+            }
+            /* Top Header amendmends */
+            
+            .top-header-logo-text {
+                font-family: BlackJackReg;
+                text-decoration: none;
+                font-size: 32px;
+                color: rgb(66, 66, 66);
+                text-transform: none;
+                margin-top: -6px
+            }
+            
+            .top-header-slogan-text {
+                text-transform: uppercase;
+                font-family: Kreon;
+                font-size: 12px;
+                font-weight: bold;
+                color: rgb(67, 125, 139);
+                margin-top: -10px;
+            }
+            
+            .top-header-nav li {
+                text-transform: none;
+                font-weight: 550px
+            }
+            /* Secondary Header settings */
+            
+            .secondary-header {
+                height: 56px;
+                background-image: linear-gradient(-45deg, rgb(245, 245, 245) 25%, transparent 25%, transparent 50%, rgb(245, 245, 245) 50%, rgb(245, 245, 245) 75%, transparent 75%, transparent);
+                background-size: 4px 4px;
+                border-top: 1px solid rgb(232, 232, 232);
+                border-image: radial-gradient(circle, rgb(203, 203, 203) 40%, rgb(220, 220, 220) 80%, rgb(232, 232, 232) 20%);
+                border-image-slice: 1;
+                display: flex;
+                box-shadow: inset 1px 7px 6px -6px rgb(225, 225, 225);
+            }
+            
+            .secondary-header-container {
+                padding-left: 23px;
+                /* display: flex; */
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            /* Secondary header nav settings */
+            
+            .secondary-header-nav {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap
+            }
+            
+            .secondary-header-nav li {
+                font-family: 'Kreon-Light';
+                font-size: 15px;
+                text-transform: uppercase;
+                padding-right: 21px;
+            }
+            
+            .secondary-header-nav .first-el {
+                color: rgb(67, 125, 139);
+                font-weight: 600;
+            }
+            /* carousel general*/
+            
+            .carousel {
+                max-width: 100%;
+                max-height: 332px;
+            }
+            
+            .carousel-img {
+                object-fit: cover;
+                width: 100%;
+                max-height: 332px;
+                border: 1px solid rgba(125, 124, 123, 0.5);
+                box-shadow: 1px 4px 6px 1px rgba(0, 0, 0, 0.08);
+            }
+            /* Carousel navigation arrows and bottom points*/
+            
+            .carousel-control {
+                max-width: 90px
+            }
+            
+            .right span {
+                float: right;
+            }
+            
+            .carousel-right-arrow {
+                margin-left: -31px;
+                cursor: pointer;
+                position: absolute;
+                bottom: 42.5%;
+                box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.15)
+            }
+            
+            .left span {
+                float: left;
+            }
+            
+            .carousel-left-arrow {
+                margin-left: -8px;
+                cursor: pointer;
+                position: absolute;
+                bottom: 42.5%;
+                box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.15)
+            }
+            /* Carousel  bottom points*/
+            
+            .carousel-indicators {
+                bottom: -15%
+            }
+            
+            .carousel-indicators li {
+                border: none;
+                border-radius: 50%;
+                background-color: rgb(223, 223, 223);
+            }
+            
+            .carousel-indicators .active {
+                border-radius: 50%;
+                border: 2.5px solid rgb(223, 223, 223);
+                background-color: rgb(30, 30, 30)
+            }
+            /* Carousel main window caption */
+            
+            .carousel-caption {
+                right: 5%;
+                padding-top: 36px;
+                padding-right: 30px;
+                padding-left: 32px;
+                margin-bottom: 25px;
+                left: auto;
+                width: 413px;
+                max-height: 235px;
+                background-color: rgba(0, 0, 0, 0.59);
+                text-align: left;
+            }
+            
+            .carousel-caption h2 {
+                font-family: 'Kreon-Light';
+                font-size: 28px;
+                font-weight: 100;
+                margin-top: 0;
+                color: rgb(255, 255, 255)
+            }
+            
+            .carousel-caption p {
+                font-family: 'Droid-Sans';
+                line-height: 170%;
+                font-size: 12px;
+                color: rgb(178, 168, 163);
+            }
+            
+            .carousel-caption-btn {
+                float: right;
+                background-color: rgba(14, 13, 1, 0.3);
+                font-family: Kreon;
+                font-size: 13px;
+                color: rgb(123, 146, 151);
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                z-index: 10;
+            }
+            /* Jumbotron settings */
+            
+            .main-jumbotron-section {
+                background-color: rgb(255, 255, 255);
+                margin-top: 57px;
+                max-width: 890px;
+                max-height: 130px;
+                align-self: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                border-top: 1px solid rgb(240, 240, 240);
+                border-bottom: 1px solid rgb(240, 240, 240);
+            }
+            
+            .main-jumbotron-section h2 {
+                font-family: 'Kreon-Light';
+                font-weight: 300;
+                font-size: 28px;
+                margin-bottom: 2px;
+            }
+            
+            .main-jumbotron-section p {
+                font-family: 'Kreon-Light';
+                font-weight: 300;
+                font-size: 20px;
+                color: rgb(175, 175, 175);
+            }
+            /* main screen section  */
+            
+            #middle-section-content {
+                border: 1px solid purple;
+                padding: 0 50px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                font-family: 'Droid-Sans';
+                font-size: 12px;
+                color: rgb(146, 146, 146);
+            }
+            
+            #middle-section-content h2,
+            h4 {
+                font-family: 'Kreon-Light';
+                font-size: 20px;
+                color: rgb(74, 74, 74);
+            }
+            /* top 3 middle section images  */
+            
+            .country-infoCards {
+                display: flex;
+                justify-content: space-between;
+                padding-top: 46px;
+                /* padding-bottom: 30px; */
+                flex-wrap: wrap;
+            }
+            
+            .country-card {
+                border: 1px solid green;
+                width: 240px;
+                max-height: 300px;
+                overflow: hidden;
+            }
+            
+            .country-card-title {
+                margin-top: 0px;
+                margin-bottom: 12px;
+                padding-left: 5px;
+                overflow: hidden;
+            }
+            
+            .country-card-text {
+                padding: 20px 5px 0px 5px;
+                line-height: 20px;
+                margin-bottom: 0px;
+            }
+            
+            .preview-country-container {
+                width: 240px;
+                height: 125px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center
+            }
+            
+            .preview-country-img {
+                width: 240px;
+                height: 125px;
+            }
+            
+            .preview-country-hover-icon {
+                /* display: inline-block; */
+                background-image: url("../pics/open-trip-img.png");
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                visibility: hidden;
+            }
+            
+            .country-card-container:hover .preview-country-hover-icon {
+                visibility: visible;
+            }
+            
+            .country-card-container:hover {
+                opacity: 0.5
+            }
+            /* MultiMedia Blog */
+            
+            .media-blog {
+                display: flex;
+                justify-content: space-between;
+                /* flex-wrap: wrap; */
+                border: 1px solid orange;
+            }
+            
+            .blog-section {
+                border-style: outset;
+                min-width: 240px;
+                padding-left: 5px;
+                padding-top: 50px;
+            }
+            
+            .blog-section-title {
+                padding-bottom: 13px;
+                margin-top: 0px;
+                margin-bottom: 0px
+            }
+            
+            .blog-section-list {
+                padding-left: 15px;
+            }
+            
+            .blog-section-list li {
+                list-style-type: disc;
+                line-height: 25px;
+            }
+            
+            .blog-section-list li a {
+                color: rgb(146, 146, 146);
+            }
+            
+            .media-section {
+                display: flex;
+                flex-direction: column;
+                padding-top: 40px;
+            }
+            
+            .media-section-title {
+                padding-left: 3px;
+                margin-bottom: 15px;
+            }
+            
+            .media-bar {
+                display: flex
+            }
+            /* body {
+        padding-top: 20px;
+    }
+    
+    .carousel {
+        margin-bottom: 0;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid blue;
+    } */
+            /* The controlsy */
+            /* .carousel-control {
+        left: -12px;
+        height: 40px;
+        width: 40px;
+        background: none repeat scroll 0 0 #222222;
+        border: 4px solid #FFFFFF;
+        border-radius: 23px 23px 23px 23px;
+        margin-top: 90px;
+    } */
+            /* .carousel-control.right {
+        right: -12px;
+    } */
+            /* The indicators */
+            /* .carousel-indicators {
+        right: 50%;
+        top: auto;
+        bottom: -10px;
+        margin-right: -19px;
+    } */
+            /* The colour of the indicators */
+            /* .carousel-indicators li {
+        background: #cecece;
+    }
+    
+    .carousel-indicators .active {
+        background: #428bca;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+            /* 
+    
+    .media-carousel-row {
+        max-height: 85px;
+    } */
+            
+            .media-section {
+                width: 555px
+            }
+            
+            .media-carousel-container {
+                display: flex;
+                justify-content: space-between
+            }
+            
+            #mediaCarousel {
+                max-width: 555px;
+                max-height: 85px;
+                border-style: outset;
+                padding: 14px 15px 17px 15px;
+            }
+            
+            .todor {
+                overflow: hidden;
+                border: 1px solid green;
+                display: flex;
+                justify-content: center;
+            }
+            
+            #mediaCarousel .carousel-inner {
+                overflow: visible;
+            }
+            
+            .carousel-control {
+                position: static
+            }
+            
+            .media-left-arrow {
+                position: relative;
+                display: block;
+                float: left;
+                width: 25px;
+                height: 25px;
+                background-image: url("../pics/media-left-arrow.png");
+                cursor: pointer;
+                z-index: 1000;
+                bottom: 133px;
+                left: 290px
+            }
+            
+            .media-right-arrow {
+                position: relative;
+                display: block;
+                width: 25px;
+                height: 25px;
+                background-image: url("../pics/media-right-arrow.png");
+                cursor: pointer;
+                z-index: 1000;
+                left: 10px;
+                bottom: 160px;
+                float: right;
+            }
+            
+            .media-carousel-img {
+                width: 56px;
+                height: 56px
+            }
+            
+            .media-items {
+                margin-right: -15px
+            }
+            
+            .media-items {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            /* .media-carousel-img-first:hover .media-hover-video-icon {
+        visibility: visible;
+    } */
+            
+            .media-carousel-first-item {
+                display: flex
+            }
+            
+            .media-carousel-first-item:hover .media-hover-video-icon {
+                visibility: visible
+            }
+            
+            .media-hover-video-icon {
+                position: absolute;
+                display: inline-block;
+                align-self: center;
+                width: 33px;
+                height: 33px;
+                background-image: url("../pics/media-hover-video-icon.png");
+                visibility: hidden;
+            }
+            
+            .media-carousel-items:hover .media-hover-icon {
+                visibility: visible;
+            }
+            
+            .media-carousel-items:hover .media-item-description {
+                visibility: visible;
+            }
+            
+            .media-item-description {
+                /* border: 1px solid red;
+        z-index: 10000;
+        position: absolute;
+        top: 40px */
+                align-self: center;
+                position: absolute;
+                bottom: 43px;
+                height: 100px;
+                width: 170px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-size: 12px;
+                box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+                color: rgb(146, 146, 146);
+                border: 3px solid rgb(240, 240, 240);
+                border-bottom: 1px solid rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+                z-index: 10000;
+                border-radius: 5px;
+            }
+            
+            .media-item-description p {
+                border: 1px solid red;
+                /* text-align: center; */
+                padding-right: 16px;
+                padding-left: 16px;
+            }
+            
+            .media-hover-icon {
+                position: absolute;
+                display: inline-block;
+                align-self: center;
+                width: 33px;
+                height: 33px;
+                background-image: url("../pics/media-magnifying-glass.png");
+                visibility: hidden;
+                /* overflow: visible */
+            }
