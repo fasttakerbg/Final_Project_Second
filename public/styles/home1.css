@@ -199,7 +199,6 @@
             /* main screen section  */
             
             #middle-section-content {
-                border: 1px solid purple;
                 padding: 0 50px;
                 display: flex;
                 flex-direction: column;
